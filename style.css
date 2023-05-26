@@ -1,0 +1,65 @@
+body {
+    background-color: #e0f2f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+  
+header {
+    background-color: #8bcdec;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+  
+footer {
+    background-color: #8bcdec;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+main {
+    padding: 20px;
+    text-align: center;
+}
+main p {
+    line-height: 50px;
+}
+
+.icon {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(path/to/your/icon.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 9999;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+  
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+}
+     100% {
+      opacity: 1;
+}
+}
+  
+a {
+    color: #004fc5;
+    text-decoration: none;
+}
+
+.header {
+    font-size: 1.2rem;
+    color: black;
+    
+}
